@@ -1,0 +1,18 @@
+.header{
+    display: grid;
+    grid-template-areas: 'item1 item1 . . . . .';
+    grid-gap: 40px;
+    background: linear-gradient(90deg ,rgb(19, 18, 18),rgb(61, 60, 60));
+    color: white;
+
+}
+.imgLogo{
+    width: 200px;
+}   
+.imgMessage{
+    width: 40px;
+}
+.item NavLink{
+    grid-area: 'item1';
+    padding: 20px;
+}
