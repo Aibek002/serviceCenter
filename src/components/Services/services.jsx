@@ -1,4 +1,5 @@
 
+import Content from '../Content/content';
 import s from './services.module.css';
 
 
@@ -9,6 +10,7 @@ import s from './services.module.css';
 function Services() {
     return (
         <div className={s.services}>
+            <Content/>
             <p className={s.title}>Услуги оценочной компании GaMa Group.</p>
             <div className={s.menu}>
                 <div className={s.item}>

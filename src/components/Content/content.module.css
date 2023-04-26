@@ -2,46 +2,55 @@
     padding: 0px;
     /* background-image:url('service\src\components\Content\img\logoShef.jpg'); */
     color: aliceblue;
-    background:linear-gradient(90deg,rgb(35, 35, 35),rgb(32, 32, 32)) ;
-    /* padding-left: 100px; */
-    height: 55vh;
+    display: grid;
+    grid-template-rows: 20% 20% 10%;
+    background: url('\\img\\bgsh.jpg');
+    height: 90vh;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 
 }
-.Logo{
+
+.Logo {
     margin-left: 50%;
-    margin-top:-35% ;
-    position:absolute;
+    /* height: 110vh; */
+    margin-top: -240px;
+    position: absolute;
 }
 
-button {
-    background-color:  #b31400;
-    width: 300px;
-    height: 60px;
+.button {
+    background-color: #b31400;
+    width: 50%;
+    height: 50px;
     border-color: linear-gradient(90deg, rgb(19, 18, 18), rgb(61, 60, 60));
-    border-radius: 60px;
-    /* margin-top: 2%;   */
+    border-radius: 50px;
+    margin-left: 20%;
     font-size: 15px;
-    font-weight: 800;
+    font-weight: 400;
     color: aliceblue;
-    
+
 
 }
-.textOfBox{
+
+.textOfBox {
     color: rgb(52, 52, 52);
     font-weight: 600;
     width: 70%;
-    margin-top: 15% ;
-    margin-left: 15% ;
+    margin-top: 15%;
+    margin-left: 15%;
     text-align: left;
     font-size: 15px;
 }
+
 .textTitle {
     font-weight: 600;
+    margin-bottom: 0px;
     font-size: 36px;
     text-align: left;
-    font-family: 'TildaSans',Arial,sans-serif;
-    padding: 20px;
+    line-height: 0.1px;
+    font-family: 'TildaSans', Arial, sans-serif;
+    /* padding: 20px; */
     padding-left: 100px;
 }
 
@@ -49,45 +58,50 @@ button {
     font-weight: 300;
     font-size: 15px;
     text-align: left;
+    margin: 0px;
     padding-left: 100px;
 
 }
-.item{
-    display:flex;
+
+.item {
+    display: flex;
+    height: 10px;
 
 }
-.box1{
+
+.box1 {
     width: 350px;
     height: 200px;
     background-color: rgb(255, 255, 255);
     border-radius: 40px;
-    margin-top: 80px;
-    position:absolute;
+    margin-top: 20px;
+    /* position: absolute; */
     margin-left: 100px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 }
-.box2{
+
+.box2 {
     width: 350px;
     height: 200px;
     background-color: rgb(255, 255, 255);
     border-radius: 40px;
-    margin-top: 200px;
-    margin-left: 500px;
-    position:absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    /* position: absolute; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
-.banner{
-   padding-top: 10%;
-   width: 100%;
+.banner {
+    /* width: 100vw; */
+    margin-top: 100px;
 }
 
-.batton{
+.batton {
     width: 250px;
     height: 40px;
-    margin-bottom: 100px;
-   
+    margin-bottom: 700px;
+
 }

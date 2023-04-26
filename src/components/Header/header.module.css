@@ -5,7 +5,7 @@
     /* width: 100vw; */
 
     /* grid-template-columns: '50px' '50px'; */
-
+/* position: fixed; */
     color: white;
     
 
@@ -30,21 +30,29 @@ button {
 
 }
 .imgMessage {
-    width: 40px;
-    padding: 20px;
+    width: 30px;
+    padding: 30px;
 }
 
 .item {
     grid-area: 'item1';
-    padding: 15px;
+    padding-top: 15px;
+    width: 100%;
     text-align: center;
     line-height:85px;
 }
 
-.a {
+a {
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+a:hover {
+    text-decoration: none;
+    color:  #b31400;
+    font-size: 22px;
     font-weight: 500;
     margin-left: 50px;
 }
