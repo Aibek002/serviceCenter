@@ -2,6 +2,7 @@
 
 
 [<span style="color: red;">GaMa</span> Group](https://gama.nicepage.io/) - is a reputable service center providing a wide range of services for various electronic devices. Our website serves as an online platform where customers can learn about our services, make appointments, and stay updated with the latest news and promotions. The website design is inspired by the example layout found at https://gama.nicepage.io/.
+# <span style="color: blue;">GaMa</span> Group
 
 Homepage:
 The homepage welcomes visitors with a clean and modern design. It features a visually appealing hero section with an attractive background image and a prominent headline showcasing our commitment to excellence. The navigation menu at the top allows users to easily explore different sections of the website.
