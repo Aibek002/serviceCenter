@@ -1,7 +1,7 @@
 
 import s from './content.module.css';
 import React from 'react';
-import { useState } from 'react';
+
 
 function Content() {
   const logoStyle = {
@@ -21,15 +21,7 @@ function Content() {
 
   }
 
-  const [number, setNumber] = useState('');
-  const [name, setName] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Perform any necessary form submission logic here
-    console.log('Number:', number);
-    console.log('Name:', name);
-  };
     return (
       <div className={s.content}>
         <div className={s.contentItem}>
@@ -60,27 +52,7 @@ function Content() {
               </div>
               <div className={s.flexItem2}>
                 <div className={s.flex}><h3 style={contctUs}>Свяжитесь с нами</h3>
-                  <form onSubmit={handleSubmit}>
-                    <div>
-                      <label htmlFor="numberInput">Number:</label>
-                      <input
-                        type="number"
-                        id="numberInput"
-                        value={number}
-                        onChange={(e) => setNumber(e.target.value)}
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="nameInput">Name:</label>
-                      <input
-                        type="text"
-                        id="nameInput"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                      />
-                    </div>
-                    <button type="submit">Submit</button>
-                  </form>
+                
                 </div>
               </div>
             </div>
