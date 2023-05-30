@@ -85,6 +85,7 @@ h3 {
     display: grid;
     grid-template-areas: 'flexItem1 flexItem2';
     grid-template-rows: 50% 50%;
+    margin-left:8% ;
 }
 
 .flexItem1 {
@@ -95,6 +96,7 @@ h3 {
 .flexItem2 {
     text-align: center;
     padding: 10px;
+    padding-left: 50px;
 }
 
 .item {
