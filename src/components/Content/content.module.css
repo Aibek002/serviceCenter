@@ -3,9 +3,9 @@
     /* background-image:url('service\src\components\Content\img\logoShef.jpg'); */
     color: aliceblue;
     display: grid;
-    grid-template-rows: 20% 20% 10%;
-    background: url('\\img\\bgsh.jpg');
-    height: 90vh;
+    grid-template-rows: 10% 8% 10%;
+    background: url('./img/bgsh.jpg');
+    height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
 

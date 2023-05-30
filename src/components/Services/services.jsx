@@ -1,6 +1,7 @@
 
 import Content from '../Content/content';
 import s from './services.module.css';
+import React from 'react';
 
 
 
