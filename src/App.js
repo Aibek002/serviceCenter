@@ -5,6 +5,8 @@ import Header from './components/Header/header';
 import Services from './components/Services/services';
 import {BrowserRouter , Route,Routes} from 'react-router-dom';
 import Info from './components/info/info';
+import React from 'react';
+
 function App() {
   let path='home';
 

@@ -1,5 +1,6 @@
 
 import s from './content.module.css';
+import React from 'react';
 
 
 function Content() {
@@ -12,10 +13,10 @@ function Content() {
 
       <div className={s.item}>
         <div className={s.box1}><p className={s.textOfBox}>Скачайте,<br />
-          полный список документов необходимых для оценки</p><button className={s.button}>Оставить заявку</button></div>
-        <div className={s.box2}><p className={s.textOfBox}>Ответьте на 3 простых вопроса и <br />получите: скидку 20%
+          полный список документов необходимых для оценки</p><button className={s.button}>Подробнее</button></div>
+        <div className={s.box2}><p className={s.textOfBox}>Ответьте на 3 простых вопроса и получите: скидку 20%
           на оценочные услуги
-        </p><button className={s.button}>Оставить заявку</button></div>
+        </p><button className={s.button}>Подробнее</button></div>
       </div>
 
     
