@@ -8,7 +8,9 @@ import Info from './components/info/info';
 import React from 'react';
 
 function App() {
-  let path='home';
+  let path1='/';
+  let path2='/services';
+  let path3='/info';
 
   return (
 
@@ -20,9 +22,9 @@ function App() {
 
 <div className='app-wrapper-content'>
 <Routes>
-<Route path={path} Component={Content}/>
-<Route path={'/services'} Component={Services}/>
-<Route path={'/services'} Component={Info}/>
+<Route path={path1} Component={Content}/>
+<Route path={path2} Component={Services}/>
+<Route path={path3} Component={Info}/>
 
 </Routes>
 </div>
