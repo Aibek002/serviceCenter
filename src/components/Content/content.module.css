@@ -12,10 +12,14 @@
 
 
 }
-.content{
+
+.content {
     background: url('./img/bgsh.jpg');
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
 
 }
+
 .Logo {
     margin-left: 50%;
     /* height: 110vh; */
@@ -48,23 +52,49 @@
 }
 
 .textTitle {
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 0px;
-    font-size: 36px;
-    text-align: left;
+    font-size: 46px;
     line-height: 0.1px;
     font-family: 'TildaSans', Arial, sans-serif;
     /* padding: 20px; */
-    padding-left: 100px;
+    padding-left: 5%;
 }
 
 .text {
     font-weight: 300;
-    font-size: 15px;
+    font-style: italic;
+    font-size: 25px;
     text-align: left;
+    color: #b9c1cccc !important;
     margin: 0px;
-    padding-left: 100px;
+    padding-left: 10%;
 
+}
+
+.logoFlex {
+    width: 20px;
+}
+
+h3 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.flex {
+    display: grid;
+    grid-template-areas: 'flexItem1 flexItem2';
+    grid-template-rows: 50% 50%;
+}
+
+.flexItem1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.flexItem2 {
+    text-align: center;
+    padding: 10px;
 }
 
 .item {
