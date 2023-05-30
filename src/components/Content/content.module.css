@@ -1,17 +1,21 @@
-.content {
+.contentItem {
     padding: 0px;
     /* background-image:url('service\src\components\Content\img\logoShef.jpg'); */
     color: aliceblue;
     display: grid;
     grid-template-rows: 10% 8% 10%;
-    background: url('./img/bgsh.jpg');
+    width: 70%;
+    margin-left: 15%;
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
 
 
 }
+.content{
+    background: url('./img/bgsh.jpg');
 
+}
 .Logo {
     margin-left: 50%;
     /* height: 110vh; */
