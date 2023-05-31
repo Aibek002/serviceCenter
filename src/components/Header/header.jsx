@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import s from './header.module.css';
 import React from 'react';
-import Content from '../Content/content';
 
 
 
