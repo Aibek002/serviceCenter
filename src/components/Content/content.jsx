@@ -1,33 +1,9 @@
 
 import s from './content.module.css';
-import React, { useState } from 'react';
-import FormInput from './FormInput';
+import React from 'react';
+
 
 function Content() {
-  const [values, setValues] = useState({
-    username: "",
-    email: "",
-    sth: ""
-  });
-  const inputs = [
-    {
-      id: 1,
-      name: "username",
-      type: "text",
-      placeholder: "Username",
-    }
-  ];
-
-  const onChange = (e) => {
-    setValues({ ...values, [e.target.name]: e.target.value });
-  }
-  console.log(values);
-  const hangleSubmit = (e) => {
-    e.preventDefault();
-    const data = new FormData(e.target)
-  }
-
-
   const logoStyle = {
     display: 'flex',
     marginRight: '10px',
