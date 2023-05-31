@@ -1,11 +1,9 @@
 .contentItem {
     padding: 0px;
-    /* background-image:url('service\src\components\Content\img\logoShef.jpg'); */
     color: aliceblue;
     display: grid;
     grid-template-rows: 10% 8% 10%;
-    width: 70%;
-    margin-left: 15%;
+    padding: 8% 15%;
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
@@ -13,10 +11,15 @@
 
 }
 
+
 .content {
-    background: url('./img/bgsh.jpg');
-    background-size: 100% 90%;
+    background: url('https://celes.club/uploads/posts/2022-08/1661440780_49-celes-club-p-sovremennii-zagorodnii-dom-dostoprimechate-56.jpg');
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* Здесь 0.5 - это прозрачность цвета заднего фона */
+    background-blend-mode: multiply; /* Применяем режим смешивания 'multiply' для более темного эффекта */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
 
 }
 
@@ -85,7 +88,7 @@ h3 {
     display: grid;
     grid-template-areas: 'flexItem1 flexItem2';
     grid-template-rows: 50% 50%;
-    margin-left:8% ;
+    margin-left: 8%;
 }
 
 .flexItem1 {
@@ -97,6 +100,8 @@ h3 {
     text-align: center;
     padding: 10px;
     padding-left: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .item {

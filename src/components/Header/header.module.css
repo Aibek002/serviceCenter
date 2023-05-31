@@ -1,20 +1,25 @@
 .headerItem {
     display: grid;
     grid-template-areas: 'item1 item1 . ';
-    grid-template-columns: 30% 35% 35%;
-    margin-left:15%;
-    width: 70%;
+    grid-template-columns: 40vw 30vw 29vw;
+    width: 99vw;
+    /* margin-left:15%; */
     color: white;
+    
     
 
 }
 .header{
-    background:linear-gradient(90deg,rgb(35, 35, 35),rgb(32, 32, 32)) ;
+    background-blend-mode: multiply; 
+    background-size: 100vh;
+    position: absolute;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.699);
 }
 
 .imgLogo {
     width: 300px;
     /* padding-left: 100px; */
+    margin-left: 10vw;
 
 }
 button {
@@ -34,13 +39,15 @@ button {
     width: 30px;
     padding-top: 30px;
     padding-left: 20px;
+    
 }
 
 .item {
     grid-area: 'item1';
     padding-top: 15px;
-    text-align: center;
+    text-align: left;
     line-height:85px;
+    /* margin-left: 50%; */
 }
 
 a {
