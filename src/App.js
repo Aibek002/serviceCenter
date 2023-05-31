@@ -8,7 +8,6 @@ import Info from './components/info/info';
 import React from 'react';
 
 function App() {
-  let path1='/';
   let path2='/services';
   let path3='/info';
 
@@ -18,11 +17,10 @@ function App() {
     
     <div className="app-wrapper">
       <Header/>
-      {/* <Content/> */}
+      <Content/>
 
 <div className='app-wrapper-content'>
 <Routes>
-<Route path={path1} Component={Content}/>
 <Route path={path2} Component={Services}/>
 <Route path={path3} Component={Info}/>
 
