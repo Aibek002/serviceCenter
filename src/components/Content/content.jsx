@@ -1,8 +1,6 @@
 
 import s from './content.module.css';
 import React from 'react';
-
-
 function Content() {
   const logoStyle = {
     display: 'flex',
