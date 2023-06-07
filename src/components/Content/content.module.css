@@ -79,9 +79,9 @@
     width: 20px;
 }
 
-h3 {
+.h3 {
     margin: 0;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
@@ -94,7 +94,7 @@ h3 {
 
 .flexItem1 {
     text-align: center;
-    padding: 10px;
+    padding: 40px 10px;
     width: 300px;
 }
 

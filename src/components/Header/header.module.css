@@ -36,9 +36,9 @@ button {
 
 }
 .imgMessage {
-    width: 30px;
-    padding-top: 30px;
+    width: 50px;
     padding-left: 20px;
+    line-height: 0.4;
     
 }
 
