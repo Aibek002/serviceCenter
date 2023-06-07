@@ -2,7 +2,7 @@
 
 
 [_GaMa Group_](https://gama.nicepage.io/) - is a reputable service center providing a wide range of services for various electronic devices. Our website serves as an online platform where customers can learn about our services, make appointments, and stay updated with the latest news and promotions. The website design is inspired by the example layout found at https://gama.nicepage.io/.
-https://www.figma.com/file/KFQiquEDLN6rV2OsT7PhD6/Service-Site?type=whiteboard&node-id=0%3A1&t=aXcnieFsx32B93G0-1
+[ Figma Diagram ](https://www.figma.com/file/KFQiquEDLN6rV2OsT7PhD6/Service-Site?type=whiteboard&node-id=0%3A1&t=aXcnieFsx32B93G0-1)
 
 # Homepage:
 The homepage welcomes visitors with a clean and modern design. It features a visually appealing hero section with an attractive background image and a prominent headline showcasing our commitment to excellence. The navigation menu at the top allows users to easily explore different sections of the website.
