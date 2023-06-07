@@ -1,6 +1,8 @@
-
 import s from './content.module.css';
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Button } from 'react-bootstrap';
+
 function Content() {
   const logoStyle = {
     display: 'flex',
@@ -53,9 +55,8 @@ function Content() {
               <div >
                 <h3 style={contctUs}>Свяжитесь с нами</h3>
 
-                <div className={s.ServiceMenu}>
-                  <div className={s.items}></div>
-                  <div className={s.items}></div>
+                <div className={s.ServicesMenu}>
+                  <div className={s.items}><Button variant='primary'>Web</Button></div>
                   <div className={s.items}></div>
                   <div className={s.items}></div>
                 </div>
