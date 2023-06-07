@@ -22,7 +22,7 @@ function Content() {
 
   return (
     <div className={s.content}>
-      
+
       <div className={s.contentItem}>
         <div className={s.item}><p className={s.textTitle}>Оценка недвижимости в Алматы</p></div>
         <div className={s.item}><p className={s.text}>Предварите​льный оценка<br /> 2 часа - БЕСПЛАТНО</p></div>
@@ -53,8 +53,13 @@ function Content() {
               <div >
                 <h3 style={contctUs}>Свяжитесь с нами</h3>
 
+                <div className={s.ServiceMenu}>
+                  <div className={s.items}></div>
+                  <div className={s.items}></div>
+                  <div className={s.items}></div>
+                  <div className={s.items}></div>
+                </div>
 
-               
               </div>
             </div>
           </div>
