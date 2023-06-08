@@ -14,7 +14,7 @@ function Header() {
         <Navbar.Brand href='/'>
           <img
             src={logo}
-            alt="logoGamaGroup"
+            alt="logo"
             width="200px"
             height="50px"
             className="d-inline-block align-top" />
