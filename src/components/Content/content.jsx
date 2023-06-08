@@ -2,7 +2,7 @@ import s from './content.module.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Carousel from 'react-bootstrap/Carousel';
-import { Card ,Container,Button } from 'react-bootstrap'
+import { Card ,Container,Button,CardGroup } from 'react-bootstrap'
 function Content() {
   const logoStyle = {
     display: 'flex',
@@ -148,10 +148,12 @@ function Content() {
 
       </div>
     </div> 
-    <h2 className='text-center m-4'>
+   
+    <Container > 
+      <h2 className='text-center m-4'>
         Our Service
       </h2>
-    <Container className='d-flex'>
+      <CardGroup>
         <Card className='m-4'>
           <Card.Img
             variant='top'
@@ -201,6 +203,7 @@ function Content() {
             <Button variant='primary'>Read More</Button>
           </Card.Body>
         </Card>
+        </CardGroup>
     </Container>
   </>
   );
