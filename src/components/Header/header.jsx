@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from '../Content/img/logoHeader.png'
 import { Container, Navbar, Nav, Form, Button } from 'react-bootstrap';
-
-
+import { Route, BrowserRouter as Router ,Routes} from 'react-router-dom';
+import Services from '../Site/services';
+import About from '../Site/about';
+import Feadback from '../Site/feadback';
+import Content from '../Content/content';
 function Header() {
   return (
+    <>
     <Navbar collapseOnSelect expand='md' bg='dark' variant='dark'>
       <Container>
         <Navbar.Brand href='/'>
@@ -21,9 +25,9 @@ function Header() {
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto'>
             <Nav.Link href='/'>Главная</Nav.Link>
-            <Nav.Link href='/Services'>Услуги</Nav.Link>
-            <Nav.Link href='/About'>О Нас</Nav.Link>
-            <Nav.Link href='/Feadback'>Отзывы</Nav.Link>
+            <Nav.Link href='/services'>Услуги</Nav.Link>
+            <Nav.Link href='/about'>О Нас</Nav.Link>
+            <Nav.Link href='/feadback'>Отзывы</Nav.Link>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           </Nav>
           <Form className='d-flex' >
@@ -38,6 +42,15 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <Router>
+    <Routes>
+      <Route exact path='/' Component={Content}/>
+      <Route exact path='/services' Component={Services}/>
+      <Route exact path='/about' Component={About}/>
+      <Route exact path='/feadback' Component={Feadback}/>
+      </Routes>
+    </Router>
+    </>
     // <nav className={s.header}>
     //   <nav className={s.headerItem}>
     //     <div className={s.item}>
