@@ -1,52 +1,40 @@
 import React from 'react';
 import logo from '../Content/img/logoHeader.png'
-import { Container, NavDropdown, Navbar, Nav, Form, Button } from 'react-bootstrap';
+import { Container, Navbar, Nav, Form, Button } from 'react-bootstrap';
 
 
 function Header() {
   return (
-    <Navbar bg="dark" expand="md">
-      <Container >{/*fluid*/ }
-        <Navbar.Brand href="#">
+    <Navbar collapseOnSelect expand='md' bg='dark' variant='dark'>
+      <Container>
+        <Navbar.Brand href='/'>
           <img
             src={logo}
-            alt=""
-            width={200}
-            height={50}
-          />
+            alt="logoGamaGroup"
+            width="200px"
+            height="50px"
+            className="d-inline-block align-top" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+
+        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+
+        <Navbar.Collapse id='responsive-navbar-nav'>
+          <Nav className='me-auto'>
+            <Nav.Link href='/'>Главная</Nav.Link>
+            <Nav.Link href='/Services'>Услуги</Nav.Link>
+            <Nav.Link href='/About'>О Нас</Nav.Link>
+            <Nav.Link href='/Feadback'>Отзывы</Nav.Link>
+        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           </Nav>
-          <Form className="d-flex">
+          <Form className='d-flex' >
             <Form.Control
-              type="search"
-              placeholder="Search"
+              type='text'
+              placeholder='Search'
               className="me-2"
-              aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+<Button variant='outline-info'>Search</Button>
           </Form>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>
