@@ -13,9 +13,9 @@
 
 
 .content {
-    background: url('https://celes.club/uploads/posts/2022-08/1661440780_49-celes-club-p-sovremennii-zagorodnii-dom-dostoprimechate-56.jpg');
+    background: url('https://images.pexels.com/photos/783745/pexels-photo-783745.jpeg?auto=compress&cs=tinysrgb&w=1600');
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5); /* Здесь 0.5 - это прозрачность цвета заднего фона */
+    background-color: rgba(0, 0, 0, 0.5); 
     background-blend-mode: multiply; /* Применяем режим смешивания 'multiply' для более темного эффекта */
     background-size: cover;
     background-position: center;

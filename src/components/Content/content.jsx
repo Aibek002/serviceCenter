@@ -1,6 +1,7 @@
 import s from './content.module.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Carousel from 'react-bootstrap/Carousel';
 
 function Content() {
   const logoStyle = {
@@ -21,7 +22,8 @@ function Content() {
   }
 
 
-  return (
+  return (<>
+
     <div className={s.content}>
 
       <div className={s.contentItem}>
@@ -55,9 +57,87 @@ function Content() {
                 <h3 style={contctUs}>Свяжитесь с нами</h3>
 
                 <div className={s.ServicesMenu}>
-                  <div className={s.items}> <img src="" alt="logo" className={s.logo} /> </div>
-                  <div className={s.items}><img src="" alt="logo" className={s.logo} /> </div>
-                  <div className={s.items}><img src="" alt="logo" className={s.logo} /> </div>
+                  <div className={s.items}>  
+                  <Carousel>
+                    <Carousel.Item>
+                      <img
+                        className='d-block w-100'
+                        style={{ width: 'auto', height: '400px',borderRadius:'10px' }}
+                        src="https://images.pexels.com/photos/1845296/pexels-photo-1845296.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt=""
+                      />
+                      <Carousel.Caption>
+                        <h1>Forest img </h1>
+                        <p>dscscsdcs</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className='d-block w-100'
+                        style={{ width: 'auto', height: '400px',borderRadius:'10px'  }}
+                        src="https://images.pexels.com/photos/1849112/pexels-photo-1849112.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt=""
+                      />
+                      <Carousel.Caption>
+                        <h1>Forest img </h1>
+                        <p>dscscsdcs</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                  </Carousel> </div>
+                  <div className={s.items}>
+                  <Carousel>
+                    <Carousel.Item>
+                      <img
+                        className='d-block w-100'
+                        style={{ width: 'auto', height: '400px',borderRadius:'10px' }}
+                        src="https://images.pexels.com/photos/3932930/pexels-photo-3932930.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt=""
+                      />
+                      <Carousel.Caption>
+                        <h1>Forest img </h1>
+                        <p>dscscsdcs</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className='d-block w-100'
+                        style={{ width: 'auto', height: '400px',borderRadius:'10px'  }}
+                        src="https://images.pexels.com/photos/1725385/pexels-photo-1725385.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt=""
+                      />
+                      <Carousel.Caption>
+                        <h1>Forest img </h1>
+                        <p>dscscsdcs</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                  </Carousel>
+                     </div>
+                  <div className={s.items}>
+
+                  <Carousel>
+                    <Carousel.Item>
+                      <img
+                        className='d-block w-100'
+                        style={{ width: 'auto', height: '400px',borderRadius:'10px' }}
+                        src="https://images.pexels.com/photos/2119714/pexels-photo-2119714.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt=""
+                      />
+                      <Carousel.Caption>
+                        <h1>Forest img </h1>
+                        <p>dscscsdcs</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className='d-block w-100'
+                        style={{ width: 'auto', height: '400px',borderRadius:'10px'  }}
+                        src="https://images.pexels.com/photos/273244/pexels-photo-273244.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt=""
+                      />
+                      <Carousel.Caption>
+                        <h1>Forest img </h1>
+                        <p>dscscsdcs</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                  </Carousel>
+                  </div>
                 </div>
 
               </div>
@@ -74,8 +154,35 @@ function Content() {
         </div>
       </div>
     </div>
+    {/* <Carousel style={{width:'100%', height:'500px', margin:'5% 0 '}}>
+      <Carousel.Item>
+        <img
+          className='d-block w-100'
+          style={{ width: 'auto', height: '500px' }}
+          src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+          alt=""
+        />
+        <Carousel.Caption>
+          <h1>Forest img </h1>
+          <p>dscscsdcs</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className='d-block w-100'
+          style={{ width: 'auto', height: '500px' }}
+          src="https://images.pexels.com/photos/14131911/pexels-photo-14131911.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+          alt=""
+        />
+        <Carousel.Caption>
+          <h1>Forest img </h1>
+          <p>dscscsdcs</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel> */}
+
+  </>
   );
-  
+
 }
 
 export default Content;
