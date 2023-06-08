@@ -1,7 +1,6 @@
 import s from './content.module.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Button } from 'react-bootstrap';
 
 function Content() {
   const logoStyle = {
@@ -56,9 +55,9 @@ function Content() {
                 <h3 style={contctUs}>Свяжитесь с нами</h3>
 
                 <div className={s.ServicesMenu}>
-                  <div className={s.items}><Button variant='primary'>Web</Button></div>
-                  <div className={s.items}></div>
-                  <div className={s.items}></div>
+                  <div className={s.items}> <img src="" alt="logo" className={s.logo} /> </div>
+                  <div className={s.items}><img src="" alt="logo" className={s.logo} /> </div>
+                  <div className={s.items}><img src="" alt="logo" className={s.logo} /> </div>
                 </div>
 
               </div>
@@ -76,6 +75,7 @@ function Content() {
       </div>
     </div>
   );
+  
 }
 
 export default Content;
