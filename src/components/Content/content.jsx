@@ -3,6 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Carousel from 'react-bootstrap/Carousel';
 import { Card, Container, Button, CardGroup } from 'react-bootstrap'
+import { color } from '@rneui/base';
 function Content() {
   const logoStyle = {
     display: 'flex',
