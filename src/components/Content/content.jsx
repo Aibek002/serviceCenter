@@ -2,7 +2,7 @@ import s from './content.module.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Carousel from 'react-bootstrap/Carousel';
-import { Card ,Container,Button,CardGroup } from 'react-bootstrap'
+import { Card, Container, Button, CardGroup } from 'react-bootstrap'
 function Content() {
   const logoStyle = {
     display: 'flex',
@@ -132,7 +132,7 @@ function Content() {
                           alt=""
                         />
                         <Carousel.Caption>
-                        Container                    <h1>Forest img </h1>
+                          Container                    <h1>Forest img </h1>
                           <p>dscscsdcs</p>
                         </Carousel.Caption>
                       </Carousel.Item>
@@ -147,9 +147,9 @@ function Content() {
 
 
       </div>
-    </div> 
-   
-    <Container > 
+    </div>
+
+    <Container >
       <h2 className='text-center m-4'>
         Our Service
       </h2>
@@ -171,7 +171,7 @@ function Content() {
           </Card.Body>
         </Card>
         <Card className='m-4'>
-      
+
           <Card.Body>
             <Card.Title>
               Developers
@@ -181,7 +181,7 @@ function Content() {
 
             </Card.Text>
             <Button variant='primary' >Read More</Button>
-            
+
           </Card.Body><Card.Img
             variant='top'
             src='https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&cs=tinysrgb&w=1600'
@@ -203,8 +203,135 @@ function Content() {
             <Button variant='primary'>Read More</Button>
           </Card.Body>
         </Card>
-        </CardGroup>
+      </CardGroup>
     </Container>
+
+
+
+    <Container
+      style={{
+        background: 'linear-gradient(to bottom, #fafafa, #53627f)',
+        height: '100vh',
+        width: '100vw',
+        maxWidth: '99vw'
+      }}
+
+    >
+      <h2 className='text-center m-4'>
+        Our Service
+      </h2>
+      <p style={{
+        width: '70%',
+        paddingLeft: '20%'
+      }}
+        className='text-center m-4'>
+        Quam quisque id diam vel quam elementum. Vestibulum lectus mauris ultrices eros in
+        cursus turpis massa tincidunt. Pellentesque habitant morbi tristique senectus et netus.
+      </p>
+      <CardGroup
+        style={{
+          width: '70%',
+          marginLeft: '15%'
+        }}
+
+      >
+        <Card className='m-4 h-100 '>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className='d-block w-100'
+                style={{
+                  width: 'auto',
+                  height: '400px'
+                }}
+                src="https://images.pexels.com/photos/1845296/pexels-photo-1845296.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+              />
+              <Carousel.Caption>
+                <h1>Forest img </h1>
+                <p>dscscsdcs</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className='d-block w-100'
+                style={{
+                  width: 'auto',
+                  height: '400px'
+                }}
+                src="https://images.pexels.com/photos/1849112/pexels-photo-1849112.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+              />
+              <Carousel.Caption>
+                <h1>Forest img </h1>
+                <p>dscscsdcs</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Card>
+        <Card className='m-4 h-100 '>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className='d-block w-100'
+                style={{ width: 'auto', height: '400px' }}
+                src="https://images.pexels.com/photos/1845296/pexels-photo-1845296.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+              />
+              <Carousel.Caption>
+                <h1>Forest img </h1>
+                <p>dscscsdcs</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className='d-block w-100'
+                style={{ width: 'auto', height: '400px' }}
+                src="https://images.pexels.com/photos/1849112/pexels-photo-1849112.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+              />
+              <Carousel.Caption>
+                <h1>Forest img </h1>
+                <p>dscscsdcs</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+
+        </Card>
+        <Card className='m-4 h-100 '>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className='d-block w-100'
+                style={{
+                  width: 'auto',
+                  height: '400px'
+                }}
+                src="https://images.pexels.com/photos/1845296/pexels-photo-1845296.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+              />
+              <Carousel.Caption>
+                <h1>Forest img </h1>
+                <p>dscscsdcs</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className='d-block w-100'
+                style={{
+                  width: 'auto',
+                  height: '400px'
+                }}
+                src="https://images.pexels.com/photos/1849112/pexels-photo-1849112.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+              />
+              <Carousel.Caption>
+                <h1>Forest img </h1>
+                <p>dscscsdcs</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Card>
+      </CardGroup>
+    </Container>
+
   </>
   );
 
