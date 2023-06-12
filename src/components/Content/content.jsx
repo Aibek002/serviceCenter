@@ -3,7 +3,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Carousel from 'react-bootstrap/Carousel';
 import { Card, Container, Button, CardGroup } from 'react-bootstrap'
-import { color } from '@rneui/base';
+
+
 function Content() {
   const logoStyle = {
     display: 'flex',
@@ -133,7 +134,7 @@ function Content() {
                           alt=""
                         />
                         <Carousel.Caption>
-                          Container                    <h1>Forest img </h1>
+                          <h1>Forest img </h1>
                           <p>dscscsdcs</p>
                         </Carousel.Caption>
                       </Carousel.Item>
@@ -209,129 +210,95 @@ function Content() {
 
 
 
-    <Container
-      style={{
-        background: 'linear-gradient(to bottom, #fafafa, #53627f)',
-        height: '100vh',
-        width: '100vw',
-        maxWidth: '99vw'
-      }}
-
-    >
+    <Container >
       <h2 className='text-center m-4'>
         Our Service
       </h2>
-      <p style={{
-        width: '70%',
-        paddingLeft: '20%'
-      }}
-        className='text-center m-4'>
-        Quam quisque id diam vel quam elementum. Vestibulum lectus mauris ultrices eros in
-        cursus turpis massa tincidunt. Pellentesque habitant morbi tristique senectus et netus.
-      </p>
-      <CardGroup
-        style={{
-          width: '70%',
-          marginLeft: '15%'
-        }}
+      <CardGroup>
+        <Card className='m-4'
+          style={{
+            backgroundImage: 'url(https://images.pexels.com/photos/6186812/pexels-photo-6186812.jpeg?auto=compress&cs=tinysrgb&w=1600 )',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            height: '320px'
+          }}
+        >
 
-      >
-        <Card className='m-4 h-100 '>
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className='d-block w-100'
-                style={{
-                  width: 'auto',
-                  height: '400px'
-                }}
-                src="https://images.pexels.com/photos/1845296/pexels-photo-1845296.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <Carousel.Caption>
-                <h1>Forest img </h1>
-                <p>dscscsdcs</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className='d-block w-100'
-                style={{
-                  width: 'auto',
-                  height: '400px'
-                }}
-                src="https://images.pexels.com/photos/1849112/pexels-photo-1849112.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <Carousel.Caption>
-                <h1>Forest img </h1>
-                <p>dscscsdcs</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </Card>
-        <Card className='m-4 h-100 '>
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className='d-block w-100'
-                style={{ width: 'auto', height: '400px' }}
-                src="https://images.pexels.com/photos/1845296/pexels-photo-1845296.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <Carousel.Caption>
-                <h1>Forest img </h1>
-                <p>dscscsdcs</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className='d-block w-100'
-                style={{ width: 'auto', height: '400px' }}
-                src="https://images.pexels.com/photos/1849112/pexels-photo-1849112.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <Carousel.Caption>
-                <h1>Forest img </h1>
-                <p>dscscsdcs</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+          <Card.Body
 
+          >
+            <Card.Text
+              style={{
+                textAlign: 'center',
+                backgroundColor: 'rgba(180, 190, 199, 0.536)',
+                margin: '50% 0 0',
+                height: '45%'
+
+              }}
+            >
+              <p
+                className={s.p}
+              >Teambuilding</p>
+            </Card.Text>
+          </Card.Body>
         </Card>
-        <Card className='m-4 h-100 '>
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className='d-block w-100'
-                style={{
-                  width: 'auto',
-                  height: '400px'
-                }}
-                src="https://images.pexels.com/photos/1845296/pexels-photo-1845296.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <Carousel.Caption>
-                <h1>Forest img </h1>
-                <p>dscscsdcs</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className='d-block w-100'
-                style={{
-                  width: 'auto',
-                  height: '400px'
-                }}
-                src="https://images.pexels.com/photos/1849112/pexels-photo-1849112.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <Carousel.Caption>
-                <h1>Forest img </h1>
-                <p>dscscsdcs</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+        <Card className='m-4'
+          style={{
+            backgroundImage: 'url(https://images.pexels.com/photos/6186812/pexels-photo-6186812.jpeg?auto=compress&cs=tinysrgb&w=1600 )',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            height: '320px'
+          }}
+        >
+
+          <Card.Body
+
+          >
+            <Card.Text
+              style={{
+                textAlign: 'center',
+                backgroundColor: 'rgba(180, 190, 199, 0.536)',
+                margin: '50% 0 0',
+                height: '45%'
+
+              }}
+            >
+              <p
+                className={s.p}
+              >Teambuilding</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className='m-4'
+          style={{
+            backgroundImage: 'url(https://images.pexels.com/photos/6186812/pexels-photo-6186812.jpeg?auto=compress&cs=tinysrgb&w=1600 )',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            height: '320px'
+          }}
+        >
+
+          <Card.Body
+
+          >
+            <Card.Text
+              style={{
+                textAlign: 'center',
+                backgroundColor: 'rgba(180, 190, 199, 0.536)',
+                margin: '50% 0 0',
+                height: '45%'
+
+              }}
+            >
+              <p
+                className={s.p}
+              >Teambuilding</p>
+            </Card.Text>
+          </Card.Body>
         </Card>
       </CardGroup>
     </Container>
+
 
   </>
   );
