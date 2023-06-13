@@ -155,7 +155,7 @@
     margin: 20px;
     width: 300px;
     height: 400px;
-    background-color: aliceblue;
+    background-color: rgba(180, 190, 199, 0.836);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     display: flex;
@@ -164,4 +164,11 @@
 .logo{
     margin: 15% 30%;
     width: 50%;
+}
+.p{
+    text-transform: uppercase ;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50%;
 }
