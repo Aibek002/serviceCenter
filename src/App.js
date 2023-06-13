@@ -1,6 +1,5 @@
 
 import './App.css';
-import Content from './components/Content/content';
 
 
 import Header from './components/Header/header';
@@ -13,7 +12,6 @@ function App() {
   return (
 <div>
    <Header />
-   <Content />
 </div>
    
 

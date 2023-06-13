@@ -2,7 +2,7 @@
   "name": "service",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aibek002.github.io/serviceCenter/",
+  "homepage": "https://aibek002.github.io/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-free": "^6.4.0",
